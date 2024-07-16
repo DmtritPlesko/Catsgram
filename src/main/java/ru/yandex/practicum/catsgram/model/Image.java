@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
 public class Image {
 
     private Long id;
-@EqualsAndHashCode.Exclude
+    @EqualsAndHashCode.Exclude
 
     private long postId;
 
