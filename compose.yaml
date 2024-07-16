@@ -1,0 +1,6 @@
+service:
+    dd:
+      image: postgres:16.1
+    environment:
+      - POSTGRES_DB=catsgram
+      - POSTGRES_USER=dbuser
